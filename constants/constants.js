@@ -1,0 +1,1 @@
+export const STUDENT_RECORDS_URL = "https://student-management-api-1u3cd4j7s.now.sh/students";

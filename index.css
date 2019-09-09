@@ -1,0 +1,50 @@
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-container{
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+.name-content{
+    margin: 10px;
+    border: 1px solid grey;
+    width: 100px;
+    text-align: center;
+    background: lightgray;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+.side-bar-close{
+  font-size:24px;
+  cursor: pointer;
+}
+
+.side-bar-highlight{
+    border: 1px solid white;
+    background: white;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+}
+
+.side-bar-content{
+  margin: 15px;
+}
